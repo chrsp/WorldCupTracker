@@ -1,0 +1,44 @@
+{
+    "Simulator Target Bundle": "com.holografix.WorldCupTracker",
+    "aps": {
+        "alert": {
+            "title": "Injected Data",
+            "body": "Updating the App..."
+        }
+    },
+    "currentMatch": {
+        "homeTeam": {
+            "teamCode": "br",
+            "score": 3
+        },
+        "awayTeam": {
+            "teamCode": "pt",
+            "score": 3
+        },
+        "phase": "final"
+    },
+    "matches": [
+        {
+            "homeTeam": {
+                "teamCode": "nl",
+                "score": 3
+            },
+            "awayTeam": {
+                "teamCode": "us",
+                "score": 1
+            },
+            "phase": "round16"
+        },
+        {
+            "homeTeam": {
+                "teamCode": "jp",
+                "score": 1
+            },
+            "awayTeam": {
+                "teamCode": "hr",
+                "score": 1
+            },
+            "phase": "round16"
+        },
+    ]
+}

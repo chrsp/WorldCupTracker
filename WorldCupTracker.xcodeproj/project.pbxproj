@@ -1,0 +1,675 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		344BE4EF293E527A00A1AFF9 /* String+CountryName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344BE4EE293E527A00A1AFF9 /* String+CountryName.swift */; };
+		344BE4F1293E53A300A1AFF9 /* MatchScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344BE4F0293E53A300A1AFF9 /* MatchScoreView.swift */; };
+		344BE4F3293E59F200A1AFF9 /* MatchPhase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344BE4F2293E59F200A1AFF9 /* MatchPhase.swift */; };
+		345ABD382937714200054104 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345ABD372937714200054104 /* App.swift */; };
+		345ABD3A2937714200054104 /* MatchesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345ABD392937714200054104 /* MatchesView.swift */; };
+		345ABD3C2937714300054104 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 345ABD3B2937714300054104 /* Assets.xcassets */; };
+		345ABD3F2937714300054104 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 345ABD3E2937714300054104 /* Preview Assets.xcassets */; };
+		345ABD492937714300054104 /* WorldCupTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345ABD482937714300054104 /* WorldCupTrackerTests.swift */; };
+		345ABD532937714300054104 /* WorldCupTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345ABD522937714300054104 /* WorldCupTrackerUITests.swift */; };
+		345ABD552937714300054104 /* WorldCupTrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345ABD542937714300054104 /* WorldCupTrackerUITestsLaunchTests.swift */; };
+		345ABD622937716300054104 /* String+ToFlag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345ABD612937716300054104 /* String+ToFlag.swift */; };
+		345ABD642937731100054104 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345ABD632937731100054104 /* AppState.swift */; };
+		345ABD662937762A00054104 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345ABD652937762A00054104 /* AppDelegate.swift */; };
+		345ABD682937769800054104 /* AppStateParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345ABD672937769800054104 /* AppStateParser.swift */; };
+		345ABD6A2937774100054104 /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345ABD692937774100054104 /* Match.swift */; };
+		345ABD6C2937775200054104 /* MatchTeam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345ABD6B2937775200054104 /* MatchTeam.swift */; };
+		345ABD6F2937776A00054104 /* MatchesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345ABD6E2937776A00054104 /* MatchesViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		345ABD452937714300054104 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 345ABD2C2937714200054104 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 345ABD332937714200054104;
+			remoteInfo = WorldCupTracker;
+		};
+		345ABD4F2937714300054104 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 345ABD2C2937714200054104 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 345ABD332937714200054104;
+			remoteInfo = WorldCupTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		344BE4EE293E527A00A1AFF9 /* String+CountryName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+CountryName.swift"; sourceTree = "<group>"; };
+		344BE4F0293E53A300A1AFF9 /* MatchScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchScoreView.swift; sourceTree = "<group>"; };
+		344BE4F2293E59F200A1AFF9 /* MatchPhase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchPhase.swift; sourceTree = "<group>"; };
+		345ABD342937714200054104 /* WorldCupTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldCupTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		345ABD372937714200054104 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		345ABD392937714200054104 /* MatchesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchesView.swift; sourceTree = "<group>"; };
+		345ABD3B2937714300054104 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		345ABD3E2937714300054104 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		345ABD442937714300054104 /* WorldCupTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorldCupTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		345ABD482937714300054104 /* WorldCupTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldCupTrackerTests.swift; sourceTree = "<group>"; };
+		345ABD4E2937714300054104 /* WorldCupTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorldCupTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		345ABD522937714300054104 /* WorldCupTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldCupTrackerUITests.swift; sourceTree = "<group>"; };
+		345ABD542937714300054104 /* WorldCupTrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldCupTrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		345ABD612937716300054104 /* String+ToFlag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+ToFlag.swift"; sourceTree = "<group>"; };
+		345ABD632937731100054104 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		345ABD652937762A00054104 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		345ABD672937769800054104 /* AppStateParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStateParser.swift; sourceTree = "<group>"; };
+		345ABD692937774100054104 /* Match.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Match.swift; sourceTree = "<group>"; };
+		345ABD6B2937775200054104 /* MatchTeam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchTeam.swift; sourceTree = "<group>"; };
+		345ABD6E2937776A00054104 /* MatchesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchesViewModel.swift; sourceTree = "<group>"; };
+		345ABD752937813200054104 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		345ABD312937714200054104 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		345ABD412937714300054104 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		345ABD4B2937714300054104 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		345ABD2B2937714200054104 = {
+			isa = PBXGroup;
+			children = (
+				345ABD362937714200054104 /* WorldCupTracker */,
+				345ABD472937714300054104 /* WorldCupTrackerTests */,
+				345ABD512937714300054104 /* WorldCupTrackerUITests */,
+				345ABD352937714200054104 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		345ABD352937714200054104 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				345ABD342937714200054104 /* WorldCupTracker.app */,
+				345ABD442937714300054104 /* WorldCupTrackerTests.xctest */,
+				345ABD4E2937714300054104 /* WorldCupTrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		345ABD362937714200054104 /* WorldCupTracker */ = {
+			isa = PBXGroup;
+			children = (
+				345ABD752937813200054104 /* Info.plist */,
+				345ABD74293778AF00054104 /* Utilities */,
+				345ABD732937789800054104 /* App */,
+				345ABD722937788E00054104 /* Models */,
+				345ABD702937787500054104 /* Scenes */,
+				345ABD3B2937714300054104 /* Assets.xcassets */,
+				345ABD3D2937714300054104 /* Preview Content */,
+			);
+			path = WorldCupTracker;
+			sourceTree = "<group>";
+		};
+		345ABD3D2937714300054104 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				345ABD3E2937714300054104 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		345ABD472937714300054104 /* WorldCupTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				345ABD482937714300054104 /* WorldCupTrackerTests.swift */,
+			);
+			path = WorldCupTrackerTests;
+			sourceTree = "<group>";
+		};
+		345ABD512937714300054104 /* WorldCupTrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				345ABD522937714300054104 /* WorldCupTrackerUITests.swift */,
+				345ABD542937714300054104 /* WorldCupTrackerUITestsLaunchTests.swift */,
+			);
+			path = WorldCupTrackerUITests;
+			sourceTree = "<group>";
+		};
+		345ABD702937787500054104 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				345ABD712937787D00054104 /* Matches */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		345ABD712937787D00054104 /* Matches */ = {
+			isa = PBXGroup;
+			children = (
+				345ABD392937714200054104 /* MatchesView.swift */,
+				345ABD6E2937776A00054104 /* MatchesViewModel.swift */,
+				344BE4F0293E53A300A1AFF9 /* MatchScoreView.swift */,
+			);
+			path = Matches;
+			sourceTree = "<group>";
+		};
+		345ABD722937788E00054104 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				345ABD692937774100054104 /* Match.swift */,
+				345ABD6B2937775200054104 /* MatchTeam.swift */,
+				344BE4F2293E59F200A1AFF9 /* MatchPhase.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		345ABD732937789800054104 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				345ABD372937714200054104 /* App.swift */,
+				345ABD652937762A00054104 /* AppDelegate.swift */,
+				345ABD672937769800054104 /* AppStateParser.swift */,
+				345ABD632937731100054104 /* AppState.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		345ABD74293778AF00054104 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				345ABD612937716300054104 /* String+ToFlag.swift */,
+				344BE4EE293E527A00A1AFF9 /* String+CountryName.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		345ABD332937714200054104 /* WorldCupTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 345ABD582937714300054104 /* Build configuration list for PBXNativeTarget "WorldCupTracker" */;
+			buildPhases = (
+				345ABD302937714200054104 /* Sources */,
+				345ABD312937714200054104 /* Frameworks */,
+				345ABD322937714200054104 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WorldCupTracker;
+			productName = WorldCupTracker;
+			productReference = 345ABD342937714200054104 /* WorldCupTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		345ABD432937714300054104 /* WorldCupTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 345ABD5B2937714300054104 /* Build configuration list for PBXNativeTarget "WorldCupTrackerTests" */;
+			buildPhases = (
+				345ABD402937714300054104 /* Sources */,
+				345ABD412937714300054104 /* Frameworks */,
+				345ABD422937714300054104 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				345ABD462937714300054104 /* PBXTargetDependency */,
+			);
+			name = WorldCupTrackerTests;
+			productName = WorldCupTrackerTests;
+			productReference = 345ABD442937714300054104 /* WorldCupTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		345ABD4D2937714300054104 /* WorldCupTrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 345ABD5E2937714300054104 /* Build configuration list for PBXNativeTarget "WorldCupTrackerUITests" */;
+			buildPhases = (
+				345ABD4A2937714300054104 /* Sources */,
+				345ABD4B2937714300054104 /* Frameworks */,
+				345ABD4C2937714300054104 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				345ABD502937714300054104 /* PBXTargetDependency */,
+			);
+			name = WorldCupTrackerUITests;
+			productName = WorldCupTrackerUITests;
+			productReference = 345ABD4E2937714300054104 /* WorldCupTrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		345ABD2C2937714200054104 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				KnownAssetTags = (
+					New,
+				);
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					345ABD332937714200054104 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					345ABD432937714300054104 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 345ABD332937714200054104;
+					};
+					345ABD4D2937714300054104 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 345ABD332937714200054104;
+					};
+				};
+			};
+			buildConfigurationList = 345ABD2F2937714200054104 /* Build configuration list for PBXProject "WorldCupTracker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 345ABD2B2937714200054104;
+			productRefGroup = 345ABD352937714200054104 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				345ABD332937714200054104 /* WorldCupTracker */,
+				345ABD432937714300054104 /* WorldCupTrackerTests */,
+				345ABD4D2937714300054104 /* WorldCupTrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		345ABD322937714200054104 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				345ABD3F2937714300054104 /* Preview Assets.xcassets in Resources */,
+				345ABD3C2937714300054104 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		345ABD422937714300054104 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		345ABD4C2937714300054104 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		345ABD302937714200054104 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				345ABD682937769800054104 /* AppStateParser.swift in Sources */,
+				344BE4F3293E59F200A1AFF9 /* MatchPhase.swift in Sources */,
+				345ABD642937731100054104 /* AppState.swift in Sources */,
+				344BE4EF293E527A00A1AFF9 /* String+CountryName.swift in Sources */,
+				345ABD622937716300054104 /* String+ToFlag.swift in Sources */,
+				345ABD3A2937714200054104 /* MatchesView.swift in Sources */,
+				345ABD6C2937775200054104 /* MatchTeam.swift in Sources */,
+				345ABD662937762A00054104 /* AppDelegate.swift in Sources */,
+				345ABD6F2937776A00054104 /* MatchesViewModel.swift in Sources */,
+				345ABD6A2937774100054104 /* Match.swift in Sources */,
+				345ABD382937714200054104 /* App.swift in Sources */,
+				344BE4F1293E53A300A1AFF9 /* MatchScoreView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		345ABD402937714300054104 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				345ABD492937714300054104 /* WorldCupTrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		345ABD4A2937714300054104 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				345ABD532937714300054104 /* WorldCupTrackerUITests.swift in Sources */,
+				345ABD552937714300054104 /* WorldCupTrackerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		345ABD462937714300054104 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 345ABD332937714200054104 /* WorldCupTracker */;
+			targetProxy = 345ABD452937714300054104 /* PBXContainerItemProxy */;
+		};
+		345ABD502937714300054104 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 345ABD332937714200054104 /* WorldCupTracker */;
+			targetProxy = 345ABD4F2937714300054104 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		345ABD562937714300054104 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		345ABD572937714300054104 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		345ABD592937714300054104 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WorldCupTracker/Preview Content\"";
+				DEVELOPMENT_TEAM = FHSHQ9JLYB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WorldCupTracker/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.holografix.WorldCupTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		345ABD5A2937714300054104 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WorldCupTracker/Preview Content\"";
+				DEVELOPMENT_TEAM = FHSHQ9JLYB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WorldCupTracker/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.holografix.WorldCupTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		345ABD5C2937714300054104 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FHSHQ9JLYB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.holografix.WorldCupTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WorldCupTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WorldCupTracker";
+			};
+			name = Debug;
+		};
+		345ABD5D2937714300054104 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FHSHQ9JLYB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.holografix.WorldCupTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WorldCupTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WorldCupTracker";
+			};
+			name = Release;
+		};
+		345ABD5F2937714300054104 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FHSHQ9JLYB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.holografix.WorldCupTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WorldCupTracker;
+			};
+			name = Debug;
+		};
+		345ABD602937714300054104 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FHSHQ9JLYB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.holografix.WorldCupTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WorldCupTracker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		345ABD2F2937714200054104 /* Build configuration list for PBXProject "WorldCupTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345ABD562937714300054104 /* Debug */,
+				345ABD572937714300054104 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		345ABD582937714300054104 /* Build configuration list for PBXNativeTarget "WorldCupTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345ABD592937714300054104 /* Debug */,
+				345ABD5A2937714300054104 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		345ABD5B2937714300054104 /* Build configuration list for PBXNativeTarget "WorldCupTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345ABD5C2937714300054104 /* Debug */,
+				345ABD5D2937714300054104 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		345ABD5E2937714300054104 /* Build configuration list for PBXNativeTarget "WorldCupTrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345ABD5F2937714300054104 /* Debug */,
+				345ABD602937714300054104 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 345ABD2C2937714200054104 /* Project object */;
+}
